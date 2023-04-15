@@ -1,0 +1,69 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Jost:ital,wght@1,900&display=swap');
+
+
+
+#img-cabecalho{
+    width: 100px;
+}
+.container-cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+
+
+/*main*/
+
+/*titulo, texto, button e background do meio da main*/
+.backgroud-main{
+    background-image: url(https://i0.wp.com/miauaudesivos.com.br/wp-content/uploads/2023/04/banner-site-2.png?fit=1920%2C770&ssl=1);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 82vh;
+}
+.c{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-size: 70px;
+}
+.h2-main01{
+    color: #062D3E;  
+}
+.h2-main02{
+    color: rgb(237, 92, 1);
+}
+.text-main{
+    font-size: 21px;
+    width: 420px;
+}
+.button-main{
+    border: none;
+    width: 170px;
+    height: 51px;
+    border-radius: 5px;
+    background-color: rgb(237, 92, 1);
+    color: white;
+    cursor: pointer;
+    margin-right: 260px;
+}
+.container-main{
+    display: flex;
+    width: 43vw;
+    height: 80vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 45px;
+}
+
+/*list info pg*/
+
+.info-main{
+    background-color: #ED5C01;
+    background-image: url(https://i0.wp.com/miauaudesivos.com.br/wp-content/uploads/2022/07/mask-background.png?fit=1920%2C460&ssl=1);
+    width: 100%;
+    height: 160px;
+}
