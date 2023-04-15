@@ -1,7 +1,8 @@
  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Jost:ital,wght@1,900&display=swap');
-
-
-
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Jost:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Jost:ital,wght@1,300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,900&display=swap');
 #img-cabecalho{
     width: 100px;
 }
@@ -67,3 +68,105 @@
     width: 100%;
     height: 160px;
 }
+.info-img{
+    width: 100px;
+    height: 100px;
+}
+.info-p{
+    font-family: 'jost', sans-serif;
+    font-size: 16px;
+}
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* descriçao do produto*/
+.descript-container{
+    background-color: #EAE2CB;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.descript-img{
+    width: 600px;
+    height: 480px;
+}
+.descript-h2{
+    font-size: 37px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Jost', sans-serif;
+    width: 435px;
+    line-height: 55px;
+    margin-bottom: 20px;
+}
+.descript-p{
+    font-size: 20px;
+    width: 400px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    line-height: 23px;
+    word-spacing: 7px;
+}
+/* parte da explicaçao*/
+.exp-container{
+    background-color: #189CAB;
+    background-image: url(https://i0.wp.com/miauaudesivos.com.br/wp-content/uploads/2023/04/banner2.png?fit=1920%2C804&ssl=1);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.exp-container p{
+    text-align: center;
+    margin-right: 22px;
+    margin-left: 22px;
+    margin-top:6px ;
+    font-size: 17px;
+    line-height: 22px;
+
+}
+
+.exp{
+    width: 243px;
+    height: 200px;
+}
+.exp-h2{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+.exp-c{
+    width: 243px;
+    height: 265px;
+    background-color: white;
+}
+.exp-button{
+    font-size: 15px;
+    border: none;
+    width: 170px;
+    height: 51px;
+    border-radius: 5px;
+    color: #189CAB;
+    cursor: pointer;
+    margin-right: 260px;
+}
+.exp-img{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.exp-button{
+    margin-left: 80px;
+}
+
